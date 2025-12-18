@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Orderr - Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <section class="panel panel-left panel-cover">
+            <div class="block">
+                <p>Menú de Usuario</p>
+            </div>
+			<div class="block">
+				<div class="list links-list">
+					<ul>
+            <li>
+                <a href="/home/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <i class="material-icons">home</i>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-title">Home</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <i class="material-icons">menu_open</i>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-title">Categories</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/favorites/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <i class="material-icons">favorite_border</i>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-title">Favorites</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/orders/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <i class="material-icons">shopping_bag</i>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-title">My Orders</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+        </section>
+        
+        <div class="view view-main view-init">
+            <section data-name="home" class="page">
+
+              <nav class="navbar">
+                <div class="navbar-bg"></div>
+                <div class="navbar-inner">
+                    <div class="left">
+                        <a href="#" class="link panel-open" data-panel="left">
+                            <i class="material-icons">menu</i>
+                        </a>
+                    </div>
+                    <div class="title">Food Orderr</div>
+                    <div class="right">
+                        <a href="#" class="link">
+                            <i class="material-icons">account_circle</i>
+                        </a>
+                    </div>
+                </div>
+              </nav>
+
+
+              <section class="page-content">
+                  
+                <div class="section-header">
+                    <span class="section-title">Popular Item</span>
+                    <a href="#" class="see-all">See all</a>
+                </div>
+
+                <div class="row items-row">
+                    <div class="col-50">
+                        <div class="food-card">
+                            <div class="food-img">
+                                <img src="https://img.freepik.com/free-photo/delicious-burger-with-fresh-ingredients_23-2150857908.jpg" alt="Beef Burger">
+                            </div>
+                            <div class="food-info">
+                                <h3>Beef Burger</h3>
+                                <p>Cheesy Mozzarella</p>
+                                <div class="price-row full-width-btn">
+                                    <span>$7.90</span>
+                                    <button class="fill-btn">FILL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <div class="food-card">
+                            <div class="food-img">
+                                <img src="https://img.freepik.com/free-photo/double-hamburger-isolated-white-background-fresh-cheeseburger-fast-food-with-beef-cheese_90220-1063.jpg" alt="Big Mac">
+                            </div>
+                            <div class="food-info">
+                                <h3>Big Mac</h3>
+                                <p>Cheesy Mozzarella</p>
+                                <div class="price-row full-width-btn">
+                                    <span>$7.90</span>
+                                    <button class="add-btn-full"><i class="material-icons">add</i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promo-banner">
+                    <div class="promo-content">
+                        <h2>Free Pizza</h2>
+                        <p class="offer">1 + 1 = 1</p>
+                        <button class="order-now-btn">Order Now</button>
+                    </div>
+                    <div class="promo-img">
+                        <img src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg" alt="Pizza">
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <span class="section-title">Recommend Item</span>
+                    <a href="#" class="see-all">See all</a>
+                </div>
+
+                <div class="recommend-item">
+                    <div class="rec-img">
+                        <img src="https://img.freepik.com/free-photo/apple-pie-with-ice-cream-isolated-white_123827-21915.jpg" alt="Apple Pie">
+                    </div>
+                    <div class="rec-info">
+                        <h3>Apple Pie</h3>
+                        <p>Dessert</p>
+                        <span class="price">$4.70</span>
+                    </div>
+                    <button class="add-btn-full rec-btn"><i class="material-icons">add</i></button>
+                </div>
+                    
+                    
+                  
+              </section> </section> <div class="toolbar toolbar-bottom ">
+                <div class="toolbar-inner">
+                  <a href="/home/" class="link"><i class="material-icons">home</i></a>
+                  <a href="/categories/" class="link"><i class="material-icons">menu_open</i></a>
+                  <a href="#" class="link"><i class="material-icons">shopping_basket</i></a>
+                  <a href="#" class="link"><i class="material-icons">notifications</i></a>
+                  <a href="#" class="link"><i class="material-icons">person</i></a>
+                </div>
+            </div>
+            
+        </div></div><script src="js/framework7.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    
+    
+    
+    
+</body>
+</html>
